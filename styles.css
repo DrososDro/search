@@ -16,6 +16,7 @@
 }
 .ImageDisplay{
     position: relative;
+    margin: 5px;
     height: 272px;
 
 }
@@ -39,6 +40,14 @@
     width: auto;
     max-width: 584px;
 }
+.searchImage{
+    height: 15px;
+}
+.imgAling{
+    height: 45px;
+    margin: 15px;
+
+}
 .inputs{
     margin: auto;
     display: flex;
@@ -48,12 +57,17 @@
     outline: none;
     margin: 10px;
     font-size: 19px;
+    
 
 }
 .reset{
     background-color: transparent;
+    outline: none;
     border: none;
     margin: 10px;
+}
+.hidden{
+    visibility: hidden;
 }
 #reset-hover:hover{
     background-color:aliceblue;

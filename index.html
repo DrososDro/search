@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="styles.css"> 
-    </head>
-    <body>
-        <!-- this is the nav bar -->
-        <div class="Container Fonts">
-            <div class="navbar">
-                <div class="Container">
-                    Images
-                </div>
-                <div class="Container">
-                    Advanced Search
-                </div>
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- this is the nav bar -->
+    <div class="Container Fonts">
+        <div class="navbar">
+            <div class="Container">
+                Images
+            </div>
+            <div class="Container">
+                Advanced Search
             </div>
         </div>
-        <!-- google image -->
-        <div class="Container">
-                <div class="ImageDisplay">
-                    <div class="center">
-                    <img src="google.png" alt="Google icon" >
-                    </div>
-                </div>
+    </div>
+    <!-- google image -->
+    <div class="Container">
+        <div class="ImageDisplay">
+            <div class="center">
+                <img src="google.png" alt="Google icon">
+            </div>
+        </div>
+
+    </div>
+    <!-- google search -->
+    <form action="http://www.google.com/search">
+        <div class="formContainer">
+            <div class="imgAling">
+                <img src="search-3-16.png" class="searchImage">
+            </div>
+            <input type="text" name="q" class="inputs">
+            <input type="reset" value="X" class="reset" id="reset-hover">
 
         </div>
-        <!-- google search -->
-        <form action="http://www.google.com/search" >
-            <div class="formContainer">
-                        <input type="text" name="q" class="inputs">
-                        <input type="reset" value="X" class="reset" id="reset-hover">
+        <input type="submit" value="Google Search">
+    </form>
+</body>
 
-            </div>
-                        <input type="submit" value="Google Search">
-        </form>
-    </body>
 </html>
