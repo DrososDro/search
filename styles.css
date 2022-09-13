@@ -25,3 +25,20 @@
     justify-content: center;
     bottom: 10px;
 }
+.FormContainer{
+    text-align: center;
+}
+
+.searchBar1{
+    display: flex;
+    text-align: center;
+    flex: auto;
+}
+
+.searchBar{
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    max-width: 584px;
+
+}
