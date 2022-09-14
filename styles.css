@@ -45,7 +45,7 @@
 }
 .imgAling{
     height: 45px;
-    margin: 15px;
+    margin: 13px;
 
 }
 .inputs{
@@ -71,4 +71,45 @@
 }
 #reset-hover:hover{
     background-color:aliceblue;
+}
+
+.ButtonContainer{
+    height: 70;
+    padding-top: 18px;
+}
+.inputButton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.lucky{
+background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.inputButton:hover,.formContainer:hover,
+.lucky:hover{
+    border: 2px solid #dfe1e5;
 }
