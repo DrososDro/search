@@ -1,6 +1,14 @@
+.bodystyle{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    display: block;
+}
 .Fonts{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 .Container{
     margin: 5px;
@@ -11,6 +19,7 @@
 
 .navbar{
     display: flex;
+    height: 48px;
     flex: auto;
     justify-content: flex-end;
 }
@@ -40,6 +49,7 @@
     width: auto;
     max-width: 584px;
 }
+
 .searchImage{
     height: 15px;
 }
