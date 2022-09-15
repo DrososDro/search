@@ -1,42 +1,51 @@
-.bodystyle{
+.bodystyle {
     height: 100%;
     margin: 0;
     padding: 0;
     min-width: 400px;
     display: block;
 }
-.Fonts{
+
+.Fonts {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.Container{
+
+.Container {
     margin: 5px;
     padding: 5px;
     text-align: center;
     justify-content: center;
 }
 
-.navbar{
+.navbar {
     display: flex;
     height: 48px;
     flex: auto;
     justify-content: flex-end;
 }
-.ImageDisplay{
+
+.ImageDisplay {
     position: relative;
     margin: 5px;
     height: 272px;
 
 }
-.center{
+
+.center {
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: center;
     bottom: 10px;
 }
-.formContainer{
+
+.mainSearchBar {
+    height: 44px;
+}
+
+.formContainer {
     display: flex;
     z-index: 3;
     height: 44px;
@@ -50,15 +59,17 @@
     max-width: 584px;
 }
 
-.searchImage{
+.searchImage {
     height: 15px;
 }
-.imgAling{
+
+.imgAling {
     height: 45px;
     margin: 13px;
 
 }
-.inputs{
+
+.inputs {
     margin: auto;
     display: flex;
     flex: 1;
@@ -67,59 +78,78 @@
     outline: none;
     margin: 10px;
     font-size: 19px;
-    
+
 
 }
-.reset{
+
+.reset {
     background-color: transparent;
     outline: none;
     border: none;
     margin: 10px;
 }
-.hidden{
+
+.hidden {
     visibility: hidden;
 }
-#reset-hover:hover{
-    background-color:aliceblue;
+
+#reset-hover:hover {
+    background-color: aliceblue;
 }
 
-.ButtonContainer{
+.ButtonContainer {
     height: 70;
     padding-top: 18px;
 }
-.inputButton{
+
+.inputButton {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
+    width: 130px;
     text-align: center;
     cursor: pointer;
     user-select: none;
 }
-.lucky{
-background-color: #f8f9fa;
+
+.lucky {
+    background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
+    width: 130px;
     text-align: center;
     cursor: pointer;
     user-select: none;
 }
-.inputButton:hover,.formContainer:hover,
-.lucky:hover{
+
+.inputButton:hover,
+.formContainer:hover,
+.lucky:hover {
     border: 2px solid #dfe1e5;
+}
+
+.googleImg {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    width: 261px;
+    text-align: end;
+    bottom: 0;
+    white-space: nowrap;
 }
