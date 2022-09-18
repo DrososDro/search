@@ -25,62 +25,77 @@
     </div>
     <div class="Border"></div>
     <div class="AdvancedContainer">
-        <form class="Fonts">
-            <div class="row" style="font-size: 18px;">
-                <span>Find pages with...</span>
-            </div>
-            <div style="width: 100%; display: inline-block;">
-                <div class="input_text">
-                    <div class="tittle">
-
-                        <span>all these words:</span>
+        <div class="title" style="font-size: 18px;">
+            <span>Find pages with...</span>
+        </div>
+        <form action="http://www.google.com/search" method="get" role="search">
+            <!-- main container after this i make a line container-->
+            <div class="main_container Fonts">
+                <!-- this is the line container-->
+                <div class="lineContainer">
+                    <div class="title">
+                        <span class="spans">all these words:</span>
                     </div>
-                    <input type="text" class="input_row">
+                    <div class="Input">
 
+                    <input class="from" autofocus="autofocus" name="as_q" type="text">
+                    </div>
                 </div>
-                <div style="width: 100%; display: inline-block;">
-                    <div class="input_text">
-                        <div class="tittle">
-
-                            <span>all these words:</span>
-                        </div>
-                        <input type="text" class="input_row">
-
+                <!--finish of the line container-->
+                <!-- this is the line container-->
+                <div class="lineContainer">
+                    <div class="title">
+                        <span class="spans">this exact word or phrase:</span>
                     </div>
-                    <div style="width: 100%; display: inline-block;">
-                        <div class="input_text">
-                            <div class="tittle">
+                    <div class="Input"></div>
+                </div>
+                <!--finish of the line container-->
+                <!-- this is the line container-->
+                <div class="lineContainer">
+                    <div class="title">
+                        <span class="spans">any of these words:</span>
+                    </div>
+                    <div class="Input"></div>
+                </div>
+                <!--finish of the line container-->
+                <!-- this is the line container-->
+                <div class="lineContainer">
+                    <div class="title">
+                        <span class="spans">none of these words:</span>
+                    </div>
+                    <div class="Input"></div>
+                </div>
+                <!--finish of the line container-->
 
-                                <span>all these words:</span>
-                            </div>
-                            <input type="text" class="input_row">
+                <!-- this is the line container-->
+                <div class="lineContainer">
+                    <div class="title">
+                        <span class="spans">numbers ranging from:</span>
+                    </div>
+                    <div class="Input"></div>
+                </div>
+                <!--finish of the line container-->
 
-                        </div>
-                        <div style="width: 100%; display: inline-block;">
-                            <div class="input_text">
-                                <div class="tittle">
-
-                                    <span>all these words:</span>
-                                </div>
-                                <input type="text" class="input_row">
-
-                            </div>
-                            <div style="width: 100%; display: inline-block;">
-                                <div class="input_text">
-                                    <div class="tittle">
-
-                                        <span>all these words:</span>
-                                    </div>
-                                    <input type="text" class="input_row">
-
-                                </div>
-
-                                <div class="Border"></div>
-                            </div>
-
-        </form>
+            </div>
+            <!-- finish of the main container-->
 
     </div>
+
+    </form>
 </body>
 
 </html>
+
+<!--
+                    <input class="Input" autofocus="autofocus" name="as_epq" type="text">
+                    <input class="Input" autofocus="autofocus" name="as_oq" type="text">
+                    <input class="Input" autofocus="autofocus" name="as_eq" type="text">
+                    <div class="numbersdiv">
+                        <input class="from" name="as_nlo" type="text">
+                        <div class="span_div">
+
+                    <span class="spans"> to </span>
+                        </div>
+                        <input class="from" name="as_nhi" type="text">
+                    </div>
+                -->
