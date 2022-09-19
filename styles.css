@@ -221,6 +221,7 @@
     height: 25px;
     padding: 1px 8px;
     display: table;
+    
 }
 
 .spans{
@@ -229,20 +230,17 @@
 }
 
 .from{
+ 
     margin: auto;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     border: none;
     outline: none;
-
     width: 100%;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    border-radius: 1px;
-    border: 1px solid #d9d9d9;
-    border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
+}
+.Input:focus{
+    background-color: red;
 }
