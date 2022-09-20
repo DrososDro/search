@@ -98,7 +98,7 @@
 }
 
 .ButtonContainer {
-    height: 70;
+    height: 70px;
     padding-top: 18px;
 }
 
@@ -185,62 +185,141 @@
     border-bottom: 1px solid #ebebeb;
 }
 
-.AdvancedContainer {
-    max-width: 1140px;
-    width: 96%;
-    margin: 40px 2% 0 45px;
-}
-.main_container{
-    width: 100%;
-    display: inline-block;
-
-}
-
-.lineContainer{
+.mainContainer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
 }
-.title{
+
+.lineContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleContainer {
     height: 42px;
-    min-width: 195px;
-    width: 16%;
+    width: 200px;
     display: table;
 }
-.Input{
+
+.inputContainer {
+    height: 42px;
+    max-width: 500px;
     min-width: 195px;
     width: 50%;
-    max-width: 550px;
-    height: 36px;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
+
+
+}
+
+.labelContainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inputContainer {
+    display: table;
+}
+
+.inputFit {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+
+
+
     border-radius: 1px;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
-    padding: 1px 8px;
-    display: table;
-    
+    padding: 1px;
 }
 
-.spans{
+.inputDouble {
+    width: 100%;
+    height: 25px;
+    display: flex;
+}
+
+.paddling {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+
+}
+
+.titleContainer>label {
     display: table-cell;
     vertical-align: middle;
 }
 
-.from{
- 
-    margin: auto;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    border: none;
-    outline: none;
+.inputDouble>div {
+    height: 100%;
+    width: 50%;
+    display: table;
+}
+
+.inputdoubleindiv {
+    display: table-cell;
+    vertical-align: middle;
     width: 100%;
+    height: 25px;
+
+
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
+    padding: 1px;
 }
-.Input:focus{
-    background-color: red;
+
+.button {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.buttonCont {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.button_style{
+    user-select: none;
+    line-height: 100%;
+    height: 40px;
+    min-width: 120px;
+    float: right;
+    margin: 10px 0;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    width: 100%;
+
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+
 }
